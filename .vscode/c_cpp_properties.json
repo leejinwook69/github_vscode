@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "browse": {
+                "path": [
+                    "C:/Devtools/MinGW/lib/gcc/mingw32/6.3.0/include",
+                    "C:/Devtools/MinGW/lib/gcc/mingw32/6.3.0\\include-fixed",
+                    "C:/Devtools/MinGW/include/*",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "C:\\Devtools\\MinGW\\bin\\gcc.exe",
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
