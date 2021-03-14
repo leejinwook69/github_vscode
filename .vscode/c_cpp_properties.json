@@ -13,7 +13,7 @@
             "browse": {
                 "path": [
                     "C:/Devtools/MinGW/lib/gcc/mingw32/6.3.0/include",
-                    "C:/Devtools/MinGW/lib/gcc/mingw32/6.3.0\\include-fixed",
+                    "C:/Devtools/MinGW/lib/gcc/mingw32/6.3.0/include-fixed",
                     "C:/Devtools/MinGW/include/*",
                     "${workspaceRoot}"
                 ],
@@ -21,10 +21,10 @@
                 "databaseFilename": ""
             },
             "windowsSdkVersion": "10.0.18362.0",
-            "compilerPath": "C:\\Devtools\\MinGW\\bin\\gcc.exe",
+            "compilerPath": "C:/Devtools/MinGW/bin/gcc.exe",
             "cStandard": "c99",
             "cppStandard": "c++11",
-            "intelliSenseMode": "gcc-x64"
+            "intelliSenseMode": "gcc-x86"
         }
     ],
     "version": 4
