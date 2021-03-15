@@ -3,21 +3,21 @@
 
 #include <stdio.h>
 
-void regi($$){
+void regi(int * ptr){
     printf("your name ? : ");
-    scanf("%s", reg);
+    scanf("%s", ptr);
 }
 
 
 int main(void){
     
-    int reg[50];
+    int * reg;
     int name;
     int pw;
 
-    regi();
+    regi(reg);
 
-    printf("name : %s\n 1.yes 2.no");
+    printf("name : %s\n 1.yes 2.no\n", reg);
 
 
     return 0;
