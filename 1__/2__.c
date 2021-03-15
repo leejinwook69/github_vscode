@@ -11,13 +11,16 @@ void regi(int * ptr){
 
 int main(void){
     
-    int * reg;
+    int *reg;
+    int r;
     int name;
     int pw;
 
+    reg = &r;
+
     regi(reg);
 
-    printf("name : %s\n 1.yes 2.no\n", reg);
+    printf("name : %s\n 1.yes 2.no\n", r);
 
 
     return 0;
