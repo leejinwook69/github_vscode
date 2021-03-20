@@ -2,70 +2,77 @@
 
 
 #include <stdio.h>
+#include <stdlib.h> // exit 함수를 위해 추가함
 
-void regi(int * ptr)
+void Regi(int * ptr)
 {
     printf("your name ? : ");
-    scanf("%s", *(ptr));
-  
+    scanf("%s", ptr);
 }
 
-void pword(int * ptr)
+void Pword(int * ptr)
 {
     printf("password ? : ");
-    scanf("%s", *(ptr));
+    scanf("%s", ptr);
 }
+
+int Check(int * ptr)
+{
+    int ck = 0;
+
+   printf("input again to check : ");
+   scanf("%s", &ck);
+
+   if(*(ptr) == ck){
+       return printf("correct !\n");
+   } else{
+       printf("wrong. try again");
+       exit(0);
+   }
+}
+
 
 int main(void)
 {
+
+    int r = 0;
+    int r1 = 0;
+    int p = 0;
+    int p1 = 0;
+
+    Regi(&r);
+    Check(&r);
+
+    Pword(&p);
+    Check(&p);
     
-    int * reg;
-    int r;
-    int n=0;
-    int name;
-    int * pw;
-    int p;
-
-    int check;
-
-//reg는 r의 주소값, pw는 p의 주소값
+    printf("register completed.\nenter your name : ");
     
-    reg = &r;
-    pw = &p;
+    scanf("%s", &r1);
 
-//이름 입력
-    while(n != name)
-    {
-        regi(reg);
-        printf("name : %s\n 1.yes 2.no\n", r);
-        scanf("%d", &n);
+    if(r1 == r){
+        printf("enter password : ");
+        scanf("%s", &p1);
+        
+        if(p1 == r){
+        printf("access completed.\n welcome.");
+        }else{
+        printf("wrong password");
+        exit(0);
+        }
+    }else{
+        printf("no name matched");
+        exit(0);
     }
 
-//pw입력
-    while(n != p)
-    {
-        pword(pw);
-        printf("password check : ");
-        scanf("%s", &n);
-    }
 
-//확인
-    for(check = 1; check != name;)
-    {
-        printf("success .\n\nname : ");
-        scanf("%s", &check);
-        if(check != name)
-            printf("no name matched\n");
-    }
+   
 
-    for(check = 1; check != p;)
-    {
-        printf("password : ");
-        scanf("%s", &check);
-        if(check != p)
-            printf("wrong password\n");
-    }
+    
+
+
+
+
 
     return 0;
-
 }
