@@ -10,3 +10,5 @@ tools
 
   vscode + mingw 
 
+tistory
+itre
