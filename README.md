@@ -10,5 +10,9 @@ tools
 
   vscode + mingw 
 
+<<<<<<< HEAD
 tistory
 itre
+=======
+
+
