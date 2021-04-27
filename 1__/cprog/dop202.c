@@ -5,6 +5,7 @@ int main(void)
     int arr[16];
     int num = 0;
     int k = 0;
+    
     printf("input decimal integer : ");
     scanf("%d", &num);    
 
