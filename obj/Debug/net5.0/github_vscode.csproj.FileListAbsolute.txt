@@ -1,0 +1,16 @@
+Z:\DevResult\git\labtop\github_vscode\bin\Debug\net5.0\github_vscode.exe
+Z:\DevResult\git\labtop\github_vscode\bin\Debug\net5.0\github_vscode.deps.json
+Z:\DevResult\git\labtop\github_vscode\bin\Debug\net5.0\github_vscode.runtimeconfig.json
+Z:\DevResult\git\labtop\github_vscode\bin\Debug\net5.0\github_vscode.runtimeconfig.dev.json
+Z:\DevResult\git\labtop\github_vscode\bin\Debug\net5.0\github_vscode.dll
+Z:\DevResult\git\labtop\github_vscode\bin\Debug\net5.0\ref\github_vscode.dll
+Z:\DevResult\git\labtop\github_vscode\bin\Debug\net5.0\github_vscode.pdb
+Z:\DevResult\git\labtop\github_vscode\obj\Debug\net5.0\github_vscode.csproj.AssemblyReference.cache
+Z:\DevResult\git\labtop\github_vscode\obj\Debug\net5.0\github_vscode.GeneratedMSBuildEditorConfig.editorconfig
+Z:\DevResult\git\labtop\github_vscode\obj\Debug\net5.0\github_vscode.AssemblyInfoInputs.cache
+Z:\DevResult\git\labtop\github_vscode\obj\Debug\net5.0\github_vscode.AssemblyInfo.cs
+Z:\DevResult\git\labtop\github_vscode\obj\Debug\net5.0\github_vscode.csproj.CoreCompileInputs.cache
+Z:\DevResult\git\labtop\github_vscode\obj\Debug\net5.0\github_vscode.dll
+Z:\DevResult\git\labtop\github_vscode\obj\Debug\net5.0\ref\github_vscode.dll
+Z:\DevResult\git\labtop\github_vscode\obj\Debug\net5.0\github_vscode.pdb
+Z:\DevResult\git\labtop\github_vscode\obj\Debug\net5.0\github_vscode.genruntimeconfig.cache
