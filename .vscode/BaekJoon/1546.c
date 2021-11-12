@@ -21,14 +21,14 @@ int main(void)
         if(i == 0)
         {
             max = arr[i];
-        } else if(arr[i] > arr[i-1])
+        } else if(arr[i] > max)
         {
             max = arr[i];
         }
     }
     mean = (double)sum / num;
 
-    printf("%.10lf", mean/max*100);
+    printf("%lf", mean/max*100);
 
     return 0;
 }
