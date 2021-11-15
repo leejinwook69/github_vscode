@@ -6,5 +6,8 @@
   // 실행 코드 (chcp 65001 : 한글 깨짐 방지 설정)
   "code-runner.executorMap": {
       "cpp": "chcp 65001 && cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
+  "files.associations": {
+    "stdio.h": "c"
   }
 }
