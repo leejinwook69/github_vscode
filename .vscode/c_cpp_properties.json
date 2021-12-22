@@ -12,8 +12,8 @@
             ],
             "browse": {
                 "path": [
-                    "C:/Devtools/MinGW/lib/gcc/mingw32/6.3.0/include",
-                    "C:/Devtools/MinGW/lib/gcc/mingw32/6.3.0/include-fixed",
+                    //"C:/Devtools/MinGW/lib/gcc/mingw32/6.3.0/include",
+                    //"C:/Devtools/MinGW/lib/gcc/mingw32/6.3.0/include-fixed",
                     "C:/Devtools/MinGW/include/*",
                     "${workspaceRoot}"
                 ],
