@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+<<<<<<< HEAD
 int n, k, a, b;
 int sub;
 int main(void)
@@ -30,5 +31,15 @@ int main(void)
     }
 
     printf("%d/%d", a, b);
+=======
+int n, k;
+
+int main(void)
+{
+    scanf("%d", &k);
+    for(; n*(n+1) < 2*k; n++);
+    
+
+>>>>>>> 68a5aba1baa2ac35c6a904ac30438d9487b8cc2d
     return 0;
 }
