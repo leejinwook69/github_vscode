@@ -8,6 +8,7 @@
       "cpp": "chcp 65001 && cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
   },
   "files.associations": {
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "stdlib.h": "c"
   }
 }
