@@ -1,25 +1,29 @@
 #include <iostream>
-#include <algorithm>
-#include <vector>
 
 using namespace std;
+
+int arr[10001];
 
 int main(void)
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
+    
     int n;
     cin >> n;
-    int *arr = new int[n];
 
     for (int i = 0; i < n; i++)
     {
-        cin >> arr[i];
+        int num;
+        cin >> num;
+        arr[num]++;
     }
-    sort(arr, arr+n);
 
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i < 10001; i++)
     {
-        cout << arr[i] << '\n';
+        for (int j = arr[i]; j > 0; j--)
+        {
+            cout << i << '\n';
+        }
     }
 }
