@@ -8,18 +8,17 @@ using namespace std;
 int main(void)
 {
     int n;
-    int arr[n];
     map<int, int> number;
-    int min = 4001;
-    int max = -1;
     int count = 0;
 
-    float mean;
+    double mean = 0;
+    int resultmean;
     int median;
     int range;
     int mode = 0;
     int resultmode = 0;
     cin >> n;
+    int arr[n];
 
     for (int i = 0; i < n; i++)
     {
@@ -27,17 +26,12 @@ int main(void)
         number[arr[i]]++;
 
         mean += arr[i];
-
-        if (arr[i] > max)
-            max = arr[i];
-        if (arr[i] < min)
-            min = arr[i];
     }
     sort(arr, arr + n);
 
     mean = round(mean / n);
-
-    median = arr[(n / 2)];
+    resultmean = mean;
+    median = arr[((n - 1) / 2)];
 
     for (int i = 0; i < n; i++)
     {
@@ -65,9 +59,9 @@ int main(void)
         }
     }
 
-    range = max - min;
+    range = arr[n - 1] - arr[0];
 
-    cout << (int)mean << '\n'
+    cout << resultmean << '\n'
          << median << '\n'
          << resultmode << '\n'
          << range << '\n';
