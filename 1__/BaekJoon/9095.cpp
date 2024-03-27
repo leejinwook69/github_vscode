@@ -20,8 +20,7 @@ int main(void)
                 {
                     if (i * 3 + j * 2 + k == num)
                     {
-                        // cout << "num : " << num << " i = : " << i << " j = : " << j << " k = : " << k << "  = " << i * 3 << " + " << j * 2 << " + " << k << " = " << i * 3 + j * 2 + k << '\n';
-                        count += tgamma(i + j + k + 1) / (tgamma(i + 1) * tgamma(j + 1) * tgamma(k + 1));
+                        count += (int)round(tgamma(i + j + k + 1) / (tgamma(i + 1) * tgamma(j + 1) * tgamma(k + 1)));
                     }
                 }
             }
