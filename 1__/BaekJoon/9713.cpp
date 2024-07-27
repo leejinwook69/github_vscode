@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main (void)
+int main(void)
 {
     int n;
     cin >> n;
@@ -15,7 +15,10 @@ int main (void)
 
         for (int j = 1; j <= t; j++)
         {
-            
+            if (j % 2 == 1)
+                sum += j;
         }
+
+        cout << sum << '\n';
     }
 }
